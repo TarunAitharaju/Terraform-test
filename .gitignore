@@ -1,0 +1,25 @@
+# Local .terraform directories
+.terraform/*
+.env
+**/.terraform/*
+*.tfplan
+.terraform.lock.hcl
+
+# .tfstate files (both normal and backup files)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# # Exclude any auto-generated files or directories
+# *.tfvars
+# *.tfplan
+# *.tfstate.backup
+# *.tfstate.backup.*
+
+# Log files
+*.log
+
+# Exclude any sensitive information in tfvars files (e.g., passwords)
+*.auto.tfvars

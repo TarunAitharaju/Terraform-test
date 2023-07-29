@@ -1,0 +1,14 @@
+aws_access_key          = process.env.aws_access_key
+aws_secret_key          = process.env.aws_secret_key
+aws_region              = "ap-south-1"
+aws_vpc-cidr            = "10.1.0.0/16"
+aws_subnet_public_cidr  = "10.1.1.0/24"
+aws_subnet_private_cidr = "10.1.2.0/24"
+aws_vpc_name            = "Terraform VPC"
+aws_subnet_name_public  = "Terraform Public Subnet"
+aws_subnet_name_private = "Terraform Private Subnet"
+aws_igw_name            = "Terraform Internet Gateway"
+aws_ngw_name            = "Terraform NAT Gateway"
+aws_security_group_name = "Terraform Security Group"
+aws_roting_table_name   = "Terraform Routing Table"
+aws_s3_bucket_name      = "terraform-bucket-tarun"

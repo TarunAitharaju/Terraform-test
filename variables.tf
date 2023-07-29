@@ -1,0 +1,14 @@
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "aws_region" {}
+variable "aws_vpc-cidr" {}
+variable "aws_subnet_public_cidr" {}
+variable "aws_subnet_private_cidr" {}
+variable "aws_vpc_name" {}
+variable "aws_subnet_name_public" {}
+variable "aws_subnet_name_private" {}
+variable "aws_igw_name" {}
+variable "aws_security_group_name" {}
+variable "aws_roting_table_name" {}
+variable "aws_s3_bucket_name" {}
+variable "aws_ngw_name" {}
